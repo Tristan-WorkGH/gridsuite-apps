@@ -5,4 +5,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-/// <reference types="react-scripts" />
+import { TextEncoder, TextDecoder } from 'node:util';
+import fetch from './src/_mocks_/fetch';
+
+// fix for ReferenceError: (.*) is not defined
+Object.assign(global, { TextDecoder, TextEncoder, fetch });
