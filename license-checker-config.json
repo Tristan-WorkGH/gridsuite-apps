@@ -2,6 +2,7 @@
     "onlyAllow": [
         "MPL-2.0",
         "MIT",
+        "Zlib",
         "BSD-3-Clause",
         "BSD-2-Clause",
         "0BSD",
@@ -17,5 +18,12 @@
         "Python-2.0",
         "Unlicense"
     ],
-    "excludePackages": ["esprima@1.2.2", "jackspeak@2.3.6", "path-scurry@1.10.2"]
+    "excludePackages": [
+        "@mapbox/jsonlint-lines-primitives@2.0.2",
+        "cartocolor@4.0.2",
+        "esprima@1.2.2",
+        "jackspeak@3.4.3",
+        "package-json-from-dist@1.0.1",
+        "path-scurry@1.11.1"
+    ]
 }

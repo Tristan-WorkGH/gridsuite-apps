@@ -94,11 +94,6 @@ In the slice are defined functions created by `RTK.createAsyncThunk` that make R
 then be changed according to the result (or the error) received by the server. These functions are called by the
 containers.
 
-## Typescript config
-
-Files tsconfig.json and src/react-app-env.d.ts both results from create-react-app typescript template (version 5).
-Some property values have been changed to meet the project needs (ex: target, baseUrl,...).
-
 #### License Headers and dependencies checking
 
 To check dependencies license compatibility with this project one locally, please run the following command :

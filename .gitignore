@@ -1,5 +1,7 @@
 .idea/
 .vscode/
+/grid*/build/
+/vite.config.ts-timestamp-*
 
 
 ###
