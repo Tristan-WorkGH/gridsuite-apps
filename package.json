@@ -1,0 +1,39 @@
+{
+  "name": "gridsuite-apps",
+  "version": "0.0.1",
+  "description": "GridSuite applications common repository",
+  "author": "Tristan Chuine <tristan.chuine_externe@rte-france.com>",
+  "license": "MPL-2.0",
+  "private": true,
+  "keywords": [
+    "gridsuite",
+    "powsybl",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tristan-WorkGH/gridsuite-apps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tristan-WorkGH/gridsuite-apps/issues"
+  },
+  "homepage": "https://github.com/Tristan-WorkGH/gridsuite-apps#readme",
+  "engines": {
+    "node": ">=22",
+    "npm": "^10.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "gridadmin",
+    "gridexplore",
+    "gridstudy",
+    "griddyna"
+  ],
+  "overrides": {
+    "@powsybl/network-viewer": {
+      "react-intl": "^7.1.6"
+    }
+  }
+}
