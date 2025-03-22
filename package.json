@@ -22,8 +22,10 @@
     "node": ">=22",
     "npm": "^10.9.2"
   },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dependencies:list": "syncpack list",
+    "dependencies:mismatches": "syncpack list-mismatches"
   },
   "workspaces": [
     "gridadmin",
@@ -35,5 +37,8 @@
     "@powsybl/network-viewer": {
       "react-intl": "^7.1.6"
     }
+  },
+  "devDependencies": {
+    "syncpack": "^13.0.3"
   }
 }
